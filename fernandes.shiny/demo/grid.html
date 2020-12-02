@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Grid Examples</title>
+
+
+   <link rel="stylesheet" href="../lib/css/styleguide.css">
+   <link rel="stylesheet" href="../lib/css/gridsystem.css">
+   <link rel="stylesheet" href="../css/storetheme.css">
+</head>
+<body>
+
+
+   <header class="navbar">
+      <div class="container display-flex flex-align-center">
+         <div class="flex-none"><h1>Grid Examples</h1></div>
+      </div>
+   </header>
+
+   <div class="container">
+      <div class="card soft">
+         <h2>Basic Grid</h2>
+
+         <div class="grid">
+            <!-- div.col-6>{Column 6} -->
+            <div class="col-6"><div class="well">Column 6</div></div>
+            <div class="col-6"><div class="well">Column 6</div></div>
+         </div>
+
+         <div class="grid">
+            <div class="col-4"><div class="well">Column 4</div></div>
+            <div class="col-4"><div class="well">Column 4</div></div>
+            <div class="col-4"><div class="well">Column 4</div></div>
+         </div>
+
+         <div class="grid">
+            <div class="col-3"><div class="well">Column 3</div></div>
+            <div class="col-3"><div class="well">Column 3</div></div>
+            <div class="col-3"><div class="well">Column 3</div></div>
+            <div class="col-3"><div class="well">Column 3</div></div>
+         </div>
+
+         <!-- Make sure numbers always add to 12 -->
+         <div class="grid">
+            <div class="col-3"><div class="well">Column 3</div></div>
+            <div class="col-6"><div class="well">Column 6</div></div>
+            <div class="col-3"><div class="well">Column 3</div></div>
+         </div>
+      </div>
+   </div>
+   <div class="container">
+      <div class="card soft">
+         <div>
+            <h2>Complex Grids</h2>
+         </div>
+
+         <hr>
+         <div class="grid">
+            <div class="col-6"><div class="well">Column 6</div></div>
+            <div class="col-6"><div class="well">Column 6</div></div>
+            <div class="col-3"><div class="well">Column 3</div></div>
+            <div class="col-6"><div class="well">Column 6</div></div>
+            <div class="col-3"><div class="well">Column 3</div></div>
+            <div class="col-12"><div class="well">Column 12</div></div>
+         </div>
+
+         <hr>
+         <div class="grid">
+            <div class="col-6"><div class="well">
+               <div class="grid">
+                  <div class="col-3"><div class="well">3</div></div>
+                  <div class="col-3"><div class="well">3</div></div>
+                  <div class="col-3"><div class="well">3</div></div>
+                  <div class="col-3"><div class="well">3</div></div>
+               </div>
+            </div></div>
+            <div class="col-6"><div class="well">
+               <div class="grid">
+                  <div class="col-4"><div class="well">4</div></div>
+                  <div class="col-4"><div class="well">4</div></div>
+                  <div class="col-4"><div class="well">4</div></div>
+               </div>               
+            </div></div>
+         </div>
+      </div>
+   </div>
+
+
+   <div class="container">
+      <div class="card soft">
+         <div>
+            <h2>Responsive Grids</h2>
+         </div>
+
+         <div class="grid">
+            <div class="col-xs-12 col-md-6">
+               <div class="well">Col 6</div>
+            </div>
+            <div class="col-xs-12 col-md-6">
+               <div class="well">Col 6</div>
+            </div>
+         </div>
+
+         <hr>
+         <div class="grid gap">
+            <div class="col-xs-6 col-md-3">
+               <div class="well">Col 6</div>
+            </div>
+            <div class="col-xs-6 col-md-3">
+               <div class="well">Col 6</div>
+            </div>
+            <div class="col-xs-6 col-md-3">
+               <div class="well">Col 6</div>
+            </div>
+            <div class="col-xs-6 col-md-3">
+               <div class="well">Col 6</div>
+            </div>
+         </div>
+         <hr>
+
+         <div class="grid gap large">
+            <div class="col-xs-8 col-md-4 col-xl-12">
+               <div class="well">Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat, amet qui molestiae fugiat ut laboriosam porro ad vero deserunt fuga, velit, vitae pariatur ipsam facere quis, totam odit dolor? Veniam perferendis aliquid dignissimos vel optio laborum non, repudiandae aliquam laboriosam saepe, ad dolore necessitatibus tempora delectus corrupti praesentium ipsam repellat?</div>
+            </div>
+            <div class="col-xs-4 col-md-4 col-xl-6">
+               <div class="well">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime nesciunt commodi perspiciatis unde soluta ullam, libero assumenda quisquam quia, repudiandae expedita excepturi ea molestiae recusandae deleniti architecto, exercitationem veniam totam consequuntur eum corrupti. Fuga qui corporis nesciunt odio voluptatibus sed est? Alias, modi. Eos laboriosam et, esse ipsa dignissimos, nulla.</div>
+            </div>
+            <div class="col-xs-12 col-md-4 col-xl-6">
+               <div class="well">Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam, nobis fugiat, rem velit nulla veniam modi voluptates. Quos accusamus laudantium nihil rerum suscipit reprehenderit minima nam ducimus eaque eum. Quos animi ad sapiente earum. Nulla at veritatis dolore reiciendis aut. Corrupti nam dolor cumque commodi voluptates rem dignissimos iste distinctio.</div>
+            </div>
+         </div>
+      </div>
+   </div>
+
+   
+</body>
+</html>

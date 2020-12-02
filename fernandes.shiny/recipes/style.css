@@ -1,0 +1,356 @@
+body{
+	background-color: #f0eff0;
+	font-family: Avenir;
+}
+
+.space-even{
+	list-style: none;
+	display: flex;
+	justify-content: space-evenly;
+	padding-bottom: 40px;
+}     
+
+.float{
+	position:fixed;
+	width:100px;
+	padding:10px;
+	top:40px;
+	left:40px;
+	background-color:#f84d08;
+	color:#FFF;
+	border-radius:0px;
+	text-align:center;
+	box-shadow: 2px 2px 3px #999;
+}
+
+/*recipe*/
+
+.recipe{
+	padding: 50px 0px 0px 0px;
+}
+
+.recipe h1{
+	color: #f84d08;
+	font-family: cheap-pine;
+	font-size: 48px;
+}
+.recipe img{
+	width:300px;
+	opacity: 1;
+	height: auto;
+	transition: .5s ease;
+	backface-visibility: hidden;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.recipe {
+	text-align: center;
+	align-content: center;
+}
+
+.recipe p{
+	line-height: 36px;
+}
+
+.recipe .list{
+	padding: 50px;
+}
+
+.container {
+  position: relative;
+  width: 50%;
+}
+.middle {
+  padding: 20px;
+  transition: .5s ease;
+  opacity: 1;
+  /*position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);*/
+  text-align: center;
+}
+.container:hover img {
+  transform: scale(1.2);
+}
+/*.container:hover .middle {
+  opacity: 1;
+}*/
+.text {
+  color: #f84d08;
+  font-size: 20px;
+  padding: 16px 32px;
+}
+
+/*recipe1*/
+.recipe1 h1{
+	font-family: 'Cherry Swash', cursive;
+	font-size: 44px;
+	color: 77515a;
+}
+.recipe1 h3{
+	font-family: 'Cherry Swash', cursive;
+	font-size: 30px;
+	padding-top: 30px;
+	color: 77515a;
+}
+
+.recipe1 table{
+	border-collapse: collapse;
+	border: 1px ;
+	margin: 150px;
+}
+
+.recipe1 td{
+	color: 77515a;
+	padding: 10px;
+}
+
+.recipe1 #abstract p{
+	margin: 2% 10%;
+}
+
+.recipe1 #method dl dt{
+	font-size:20px;
+padding-bottom: 20px;
+padding-top: 30px;
+}
+
+.recipe1 #variations dl dt{
+	font-size: 18px;
+}
+
+.recipe1 #method dl dd{
+	padding-bottom: 50px;
+}
+
+.recipe1 .content{
+	padding-top: 50px;
+	text-align: center;
+}
+
+.recipe1 #Nutrition ul{
+	list-style-image: url('./images/hearticon.png');
+}
+
+.recipe1 p{
+	line-height: 30px
+}
+
+.recipe1 li{
+	padding: 6px;
+}
+
+.recipe1 dt{
+	padding: 6px;
+	line-height: 15px;
+}
+
+.recipe1 #main a{
+	font-size: 20px;
+}
+
+.recipe1 #main a:link{
+	font-weight: bold;
+	color:595959;
+}
+
+.recipe1 #main a:visited{
+color:b9a394 ;
+}
+
+.recipe1 #main a:hover{
+	color:808f85;
+}
+ 
+.recipe1 a{
+	color: 808f85;
+}
+
+#recommended_products a{
+	padding-top: 20px;
+	color: b9a394;
+	display: block;
+}
+
+/*//recipe2*/
+.recipe2 img{
+	width: 400px;
+}
+
+.recipe2 h1{
+	font-family: 'Cherry Swash', cursive;
+	font-size: 44px;
+	color: 77515a;
+}
+.recipe2 h3{
+	font-family: 'Cherry Swash', cursive;
+	font-size: 30px;
+	padding-top: 30px;
+	color: 77515a;
+}
+
+.recipe2 table{
+	border-collapse: collapse;
+	border: 1px ;
+	margin: 150px;
+}
+
+.recipe2 td{
+	color: 77515a;
+	padding: 10px;
+}
+
+.recipe2 #abstract p{
+	margin: 2% 10%;
+}
+
+.recipe2 #method dl dt{
+	font-size:20px;
+padding-bottom: 20px;
+padding-top: 30px;
+}
+
+.recipe2 #serving dl dt{
+	font-size: 18px;
+}
+
+.recipe2 #method dl dd{
+	padding-bottom: 50px;
+}
+
+.recipe2 .content{
+	text-align: center;
+	padding-top: 50px;
+}
+
+.recipe2 #Nutrition ul{
+	list-style-image: url('./images/hearticon.png');
+}
+
+.recipe2 p{
+	line-height: 30px
+}
+
+.recipe li{
+	padding: 6px;
+}
+
+.recipe2 dt{
+	padding: 6px;
+	line-height: 15px;
+}
+
+.recipe2 #main a{
+	font-size: 20px;
+}
+
+.recipe2 #main a:link{
+	font-weight: bold;
+	color:595959;
+}
+
+.recipe2 #main a:visited{
+color:b9a394 ;
+}
+
+.recipe2 #main a:hover{
+	color:808f85;
+}
+ 
+.recipe2 a{
+	color: 808f85;
+}
+
+/*//recipe3	*/
+.recipe3 img{
+	width: 400px;
+}
+
+.recipe3 h1{
+	font-family: 'Cherry Swash', cursive;
+	font-size: 44px;
+	color: 77515a;
+}
+.recipe3 h3{
+	font-family: 'Cherry Swash', cursive;
+	font-size: 30px;
+	padding-top: 30px;
+	color: 77515a;
+}
+
+.recipe3 table{
+	border-collapse: collapse;
+	border: 1px ;
+	margin: 150px;
+}
+
+.recipe3 td{
+	color: 77515a;
+	padding: 10px;
+}
+
+.recipe3 #abstract p{
+	margin: 2% 10%;
+}
+
+.recipe3 #method dl dt{
+	font-size:20px;
+padding-bottom: 20px;
+padding-top: 30px;
+}
+
+.recipe3 #serving dl dt{
+	font-size: 18px;
+}
+
+.recipe3 #method dl dd{
+	padding-bottom: 50px;
+}
+
+.recipe3 .content{
+	text-align: center;
+	padding-top: 50px;
+}
+
+.recipe3 #Nutrition ul{
+	list-style-image: url('./images/hearticon.png');
+}
+
+.recipe3 p{
+	line-height: 30px
+}
+
+.recipe3 li{
+	padding: 6px;
+}
+
+.recipe3 dt{
+	padding: 6px;
+	line-height: 15px;
+}
+
+.recipe3 #main a{
+	font-size: 20px;
+}
+
+.recipe3 #main a:link{
+	font-weight: bold;
+	color:595959;
+}
+
+.recipe3 #main a:visited{
+color:b9a394 ;
+}
+
+.recipe3 #main a:hover{
+	color:808f85;
+}
+ 
+.recipe3 a{
+	color: 808f85;
+}
+
+	
+
